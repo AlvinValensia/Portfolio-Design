@@ -26,16 +26,16 @@
     <div class="user">
         <img src="images/pic.jpg" alt="">
         <h3 class="name">Alvin Valensia</h3>
-        <p class="post">fullstack web developer</p>
+        <p class="post">Fullstack Web Developer</p>
     </div>
 
     <nav class="navbar">
         <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#service">service</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -228,21 +228,9 @@
 <!-- type.js cdn link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 
-<script>
+<!-- custom javascript -->
+<script src="index.js" charset="utf-8"></script>
 
-    var type = new Typed('.typing-text',{
-        strings : [ 'Fulstack Web Developer', 'Front End Web Developer', 'Back End Web Developer' ],
-        typeSpeed: 120,
-        loop:true
-    });
-
-    let themeColor = document.querySelectorAll('.theme-toggler span');
-    themeColor.forEach(color => color.addEventListener('click', () =>{
-        let background = color.style.background;
-        document.querySelector('body').style.background = background;
-    }));
-
-</script>
 </body>
 
 </html>
